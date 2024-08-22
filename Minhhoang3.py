@@ -10,6 +10,7 @@ print(a)
 print(b)
 '''
 import math
+import random
 
 #ex1
 '''
@@ -49,9 +50,19 @@ grams_left = grams - (kilograms*1000)
 print("the weight in modern units:", grams_left)
 '''
 #ex6
-
-
-
+'''
+import random
+code1=random.randint(0,9)
+code2=random.randint(0,9)
+code3=random.randint(0,9)
+print(f"{code1} and {code2} and {code3}")
+'''
+''''
+code1=random.randint(1,6)
+code2=random.randint(1,6)
+code3=random.randint(1,6)
+print(f"{code1} and {code2} and {code3}")
+'''
 
 
 
